@@ -1,0 +1,82 @@
+html
+{
+    height: 100%; 
+}
+
+/* CSS Cabeçalho - Início */
+
+body, ul, li, p 
+{ 
+    
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1rem; 
+     
+}
+
+header navbar-brand{
+    color: white;
+}
+
+body h2{
+    color: #9e6c2f;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: 260%;
+}
+
+
+
+.footer { /* rodapé */
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px; 
+    margin-left: 10px; 
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.cartoes_series{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+.cartoes_livros{
+    
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.cartoes_filme{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.entrar{
+    margin-right: 5px;
+}
+
+.cadastro{
+    margin-right: 5px;
+}
+
+
+
+
+
