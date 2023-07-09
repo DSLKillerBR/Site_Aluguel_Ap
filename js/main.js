@@ -66,6 +66,29 @@ function getDescricaoImoveis (id) {
 }
 
 
+function exibeImovel () {
+    let idx = 0;
+    if (idx != -1) {
+        let imovel = db.imoveis[idx]
+        let str = `<div class="card col-md" >
+            <img src="${imovel.imagem}" class="card-img-top" alt="..." style="width: 20%">
+            <div class="card-body">
+                <h5 class="card-title">${imovel.nome}</h5>
+                <p class="card-text">${imovel.descricao}</p>
+                <p class="card-text">Tipo: ${imovel.tipo}</p>
+                <p>De <s>R$1699,99</s> por ${imovel.preco}</p>
+            </div>
+            </div>`
+    
+        document.querySelector('#tela').innerHTML = str  
+        
+    }
+    else {
+        document.querySelector('#tela').innerHTML = '<h1>Imóvel não encontrado</h1>'    
+    }
+
+}
+
        
 
 function exibeImoveis (id) {
